@@ -1,0 +1,60 @@
+body {
+  background: #f4f4f4;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 500px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+}
+
+.inputText {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.inputText input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.inputText button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+}
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+.list-buttons button {
+  margin-left: 8px;
+  background: #ff6b6b;                    /*gpt suggestion, nicer than writing for delete separately*/
+  padding: 6px 12px;
+  color: white;
+  border-radius: 6px;
+}
+.list-buttons button.update {
+  background-color: #28a745;
+}
+
+
